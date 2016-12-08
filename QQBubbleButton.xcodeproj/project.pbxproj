@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE64FAD51DF994CF003433BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE64FAD41DF994CF003433BE /* main.m */; };
+		BE64FAD81DF994CF003433BE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE64FAD71DF994CF003433BE /* AppDelegate.m */; };
+		BE64FADB1DF994CF003433BE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE64FADA1DF994CF003433BE /* ViewController.m */; };
+		BE64FADE1DF994CF003433BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE64FADC1DF994CF003433BE /* Main.storyboard */; };
+		BE64FAE01DF994CF003433BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE64FADF1DF994CF003433BE /* Assets.xcassets */; };
+		BE64FAE31DF994CF003433BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE64FAE11DF994CF003433BE /* LaunchScreen.storyboard */; };
+		BE64FAEE1DF994CF003433BE /* QQBubbleButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE64FAED1DF994CF003433BE /* QQBubbleButtonTests.m */; };
+		BE64FAF91DF994CF003433BE /* QQBubbleButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE64FAF81DF994CF003433BE /* QQBubbleButtonUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE64FAEA1DF994CF003433BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE64FAC81DF994CF003433BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE64FACF1DF994CF003433BE;
+			remoteInfo = QQBubbleButton;
+		};
+		BE64FAF51DF994CF003433BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE64FAC81DF994CF003433BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE64FACF1DF994CF003433BE;
+			remoteInfo = QQBubbleButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BE64FAD01DF994CF003433BE /* QQBubbleButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QQBubbleButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE64FAD41DF994CF003433BE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BE64FAD61DF994CF003433BE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BE64FAD71DF994CF003433BE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BE64FAD91DF994CF003433BE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BE64FADA1DF994CF003433BE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BE64FADD1DF994CF003433BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE64FADF1DF994CF003433BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE64FAE21DF994CF003433BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BE64FAE41DF994CF003433BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE64FAE91DF994CF003433BE /* QQBubbleButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QQBubbleButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE64FAED1DF994CF003433BE /* QQBubbleButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQBubbleButtonTests.m; sourceTree = "<group>"; };
+		BE64FAEF1DF994CF003433BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE64FAF41DF994CF003433BE /* QQBubbleButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QQBubbleButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE64FAF81DF994CF003433BE /* QQBubbleButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQBubbleButtonUITests.m; sourceTree = "<group>"; };
+		BE64FAFA1DF994CF003433BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE64FACD1DF994CF003433BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE64FAE61DF994CF003433BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE64FAF11DF994CF003433BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE64FAC71DF994CF003433BE = {
+			isa = PBXGroup;
+			children = (
+				BE64FAD21DF994CF003433BE /* QQBubbleButton */,
+				BE64FAEC1DF994CF003433BE /* QQBubbleButtonTests */,
+				BE64FAF71DF994CF003433BE /* QQBubbleButtonUITests */,
+				BE64FAD11DF994CF003433BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE64FAD11DF994CF003433BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE64FAD01DF994CF003433BE /* QQBubbleButton.app */,
+				BE64FAE91DF994CF003433BE /* QQBubbleButtonTests.xctest */,
+				BE64FAF41DF994CF003433BE /* QQBubbleButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE64FAD21DF994CF003433BE /* QQBubbleButton */ = {
+			isa = PBXGroup;
+			children = (
+				BE64FAD61DF994CF003433BE /* AppDelegate.h */,
+				BE64FAD71DF994CF003433BE /* AppDelegate.m */,
+				BE64FAD91DF994CF003433BE /* ViewController.h */,
+				BE64FADA1DF994CF003433BE /* ViewController.m */,
+				BE64FADC1DF994CF003433BE /* Main.storyboard */,
+				BE64FADF1DF994CF003433BE /* Assets.xcassets */,
+				BE64FAE11DF994CF003433BE /* LaunchScreen.storyboard */,
+				BE64FAE41DF994CF003433BE /* Info.plist */,
+				BE64FAD31DF994CF003433BE /* Supporting Files */,
+			);
+			path = QQBubbleButton;
+			sourceTree = "<group>";
+		};
+		BE64FAD31DF994CF003433BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE64FAD41DF994CF003433BE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BE64FAEC1DF994CF003433BE /* QQBubbleButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				BE64FAED1DF994CF003433BE /* QQBubbleButtonTests.m */,
+				BE64FAEF1DF994CF003433BE /* Info.plist */,
+			);
+			path = QQBubbleButtonTests;
+			sourceTree = "<group>";
+		};
+		BE64FAF71DF994CF003433BE /* QQBubbleButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BE64FAF81DF994CF003433BE /* QQBubbleButtonUITests.m */,
+				BE64FAFA1DF994CF003433BE /* Info.plist */,
+			);
+			path = QQBubbleButtonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE64FACF1DF994CF003433BE /* QQBubbleButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE64FAFD1DF994CF003433BE /* Build configuration list for PBXNativeTarget "QQBubbleButton" */;
+			buildPhases = (
+				BE64FACC1DF994CF003433BE /* Sources */,
+				BE64FACD1DF994CF003433BE /* Frameworks */,
+				BE64FACE1DF994CF003433BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QQBubbleButton;
+			productName = QQBubbleButton;
+			productReference = BE64FAD01DF994CF003433BE /* QQBubbleButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE64FAE81DF994CF003433BE /* QQBubbleButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE64FB001DF994CF003433BE /* Build configuration list for PBXNativeTarget "QQBubbleButtonTests" */;
+			buildPhases = (
+				BE64FAE51DF994CF003433BE /* Sources */,
+				BE64FAE61DF994CF003433BE /* Frameworks */,
+				BE64FAE71DF994CF003433BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE64FAEB1DF994CF003433BE /* PBXTargetDependency */,
+			);
+			name = QQBubbleButtonTests;
+			productName = QQBubbleButtonTests;
+			productReference = BE64FAE91DF994CF003433BE /* QQBubbleButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BE64FAF31DF994CF003433BE /* QQBubbleButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE64FB031DF994CF003433BE /* Build configuration list for PBXNativeTarget "QQBubbleButtonUITests" */;
+			buildPhases = (
+				BE64FAF01DF994CF003433BE /* Sources */,
+				BE64FAF11DF994CF003433BE /* Frameworks */,
+				BE64FAF21DF994CF003433BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE64FAF61DF994CF003433BE /* PBXTargetDependency */,
+			);
+			name = QQBubbleButtonUITests;
+			productName = QQBubbleButtonUITests;
+			productReference = BE64FAF41DF994CF003433BE /* QQBubbleButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE64FAC81DF994CF003433BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "夏明伟";
+				TargetAttributes = {
+					BE64FACF1DF994CF003433BE = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					BE64FAE81DF994CF003433BE = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BE64FACF1DF994CF003433BE;
+					};
+					BE64FAF31DF994CF003433BE = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BE64FACF1DF994CF003433BE;
+					};
+				};
+			};
+			buildConfigurationList = BE64FACB1DF994CF003433BE /* Build configuration list for PBXProject "QQBubbleButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE64FAC71DF994CF003433BE;
+			productRefGroup = BE64FAD11DF994CF003433BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE64FACF1DF994CF003433BE /* QQBubbleButton */,
+				BE64FAE81DF994CF003433BE /* QQBubbleButtonTests */,
+				BE64FAF31DF994CF003433BE /* QQBubbleButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE64FACE1DF994CF003433BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE64FAE31DF994CF003433BE /* LaunchScreen.storyboard in Resources */,
+				BE64FAE01DF994CF003433BE /* Assets.xcassets in Resources */,
+				BE64FADE1DF994CF003433BE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE64FAE71DF994CF003433BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE64FAF21DF994CF003433BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE64FACC1DF994CF003433BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE64FADB1DF994CF003433BE /* ViewController.m in Sources */,
+				BE64FAD81DF994CF003433BE /* AppDelegate.m in Sources */,
+				BE64FAD51DF994CF003433BE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE64FAE51DF994CF003433BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE64FAEE1DF994CF003433BE /* QQBubbleButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE64FAF01DF994CF003433BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE64FAF91DF994CF003433BE /* QQBubbleButtonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE64FAEB1DF994CF003433BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE64FACF1DF994CF003433BE /* QQBubbleButton */;
+			targetProxy = BE64FAEA1DF994CF003433BE /* PBXContainerItemProxy */;
+		};
+		BE64FAF61DF994CF003433BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE64FACF1DF994CF003433BE /* QQBubbleButton */;
+			targetProxy = BE64FAF51DF994CF003433BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BE64FADC1DF994CF003433BE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE64FADD1DF994CF003433BE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BE64FAE11DF994CF003433BE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE64FAE21DF994CF003433BE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE64FAFB1DF994CF003433BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE64FAFC1DF994CF003433BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE64FAFE1DF994CF003433BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QQBubbleButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mile.QQBubbleButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BE64FAFF1DF994CF003433BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QQBubbleButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mile.QQBubbleButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BE64FB011DF994CF003433BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QQBubbleButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mile.QQBubbleButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QQBubbleButton.app/QQBubbleButton";
+			};
+			name = Debug;
+		};
+		BE64FB021DF994CF003433BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QQBubbleButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mile.QQBubbleButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QQBubbleButton.app/QQBubbleButton";
+			};
+			name = Release;
+		};
+		BE64FB041DF994CF003433BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QQBubbleButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mile.QQBubbleButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QQBubbleButton;
+			};
+			name = Debug;
+		};
+		BE64FB051DF994CF003433BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QQBubbleButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mile.QQBubbleButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QQBubbleButton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE64FACB1DF994CF003433BE /* Build configuration list for PBXProject "QQBubbleButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE64FAFB1DF994CF003433BE /* Debug */,
+				BE64FAFC1DF994CF003433BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE64FAFD1DF994CF003433BE /* Build configuration list for PBXNativeTarget "QQBubbleButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE64FAFE1DF994CF003433BE /* Debug */,
+				BE64FAFF1DF994CF003433BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BE64FB001DF994CF003433BE /* Build configuration list for PBXNativeTarget "QQBubbleButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE64FB011DF994CF003433BE /* Debug */,
+				BE64FB021DF994CF003433BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BE64FB031DF994CF003433BE /* Build configuration list for PBXNativeTarget "QQBubbleButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE64FB041DF994CF003433BE /* Debug */,
+				BE64FB051DF994CF003433BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE64FAC81DF994CF003433BE /* Project object */;
+}
