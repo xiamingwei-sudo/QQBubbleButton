@@ -1,3 +1,2 @@
 # QQBubbleButton-master
-
-https://github.com/Come-Mile/QQBubbleButton/QQBubbleButton/images/bubble.gif
+https://github.com/Come-Mile/QQBubbleButton/blob/master/QQBubbleButton/images/bubble.gif
