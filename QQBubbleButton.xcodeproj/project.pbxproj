@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE4B7F391DFBF70600EFE91B /* bubble.gif in Resources */ = {isa = PBXBuildFile; fileRef = BE4B7F381DFBF70600EFE91B /* bubble.gif */; };
 		BE64FAD51DF994CF003433BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE64FAD41DF994CF003433BE /* main.m */; };
 		BE64FAD81DF994CF003433BE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE64FAD71DF994CF003433BE /* AppDelegate.m */; };
 		BE64FADB1DF994CF003433BE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE64FADA1DF994CF003433BE /* ViewController.m */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BE4B7F381DFBF70600EFE91B /* bubble.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = bubble.gif; sourceTree = "<group>"; };
 		BE64FAD01DF994CF003433BE /* QQBubbleButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QQBubbleButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE64FAD41DF994CF003433BE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BE64FAD61DF994CF003433BE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -81,6 +83,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BE4B7F371DFBF6C200EFE91B /* images */ = {
+			isa = PBXGroup;
+			children = (
+				BE4B7F381DFBF70600EFE91B /* bubble.gif */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
 		BE64FAC71DF994CF003433BE = {
 			isa = PBXGroup;
 			children = (
@@ -104,6 +114,7 @@
 		BE64FAD21DF994CF003433BE /* QQBubbleButton */ = {
 			isa = PBXGroup;
 			children = (
+				BE4B7F371DFBF6C200EFE91B /* images */,
 				BE64FB061DF9957A003433BE /* QQBubbleButton.h */,
 				BE64FB071DF9957A003433BE /* QQBubbleButton.m */,
 				BE64FAD61DF994CF003433BE /* AppDelegate.h */,
@@ -254,6 +265,7 @@
 			files = (
 				BE64FAE31DF994CF003433BE /* LaunchScreen.storyboard in Resources */,
 				BE64FAE01DF994CF003433BE /* Assets.xcassets in Resources */,
+				BE4B7F391DFBF70600EFE91B /* bubble.gif in Resources */,
 				BE64FADE1DF994CF003433BE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
