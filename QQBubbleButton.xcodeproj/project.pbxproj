@@ -15,6 +15,7 @@
 		BE64FAE31DF994CF003433BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE64FAE11DF994CF003433BE /* LaunchScreen.storyboard */; };
 		BE64FAEE1DF994CF003433BE /* QQBubbleButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE64FAED1DF994CF003433BE /* QQBubbleButtonTests.m */; };
 		BE64FAF91DF994CF003433BE /* QQBubbleButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE64FAF81DF994CF003433BE /* QQBubbleButtonUITests.m */; };
+		BE64FB081DF9957A003433BE /* QQBubbleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BE64FB071DF9957A003433BE /* QQBubbleButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		BE64FAF41DF994CF003433BE /* QQBubbleButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QQBubbleButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE64FAF81DF994CF003433BE /* QQBubbleButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQBubbleButtonUITests.m; sourceTree = "<group>"; };
 		BE64FAFA1DF994CF003433BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE64FB061DF9957A003433BE /* QQBubbleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQBubbleButton.h; sourceTree = "<group>"; };
+		BE64FB071DF9957A003433BE /* QQBubbleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQBubbleButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		BE64FAD21DF994CF003433BE /* QQBubbleButton */ = {
 			isa = PBXGroup;
 			children = (
+				BE64FB061DF9957A003433BE /* QQBubbleButton.h */,
+				BE64FB071DF9957A003433BE /* QQBubbleButton.m */,
 				BE64FAD61DF994CF003433BE /* AppDelegate.h */,
 				BE64FAD71DF994CF003433BE /* AppDelegate.m */,
 				BE64FAD91DF994CF003433BE /* ViewController.h */,
@@ -207,6 +212,7 @@
 				TargetAttributes = {
 					BE64FACF1DF994CF003433BE = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = NBC89W4CT2;
 						ProvisioningStyle = Automatic;
 					};
 					BE64FAE81DF994CF003433BE = {
@@ -274,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE64FADB1DF994CF003433BE /* ViewController.m in Sources */,
+				BE64FB081DF9957A003433BE /* QQBubbleButton.m in Sources */,
 				BE64FAD81DF994CF003433BE /* AppDelegate.m in Sources */,
 				BE64FAD51DF994CF003433BE /* main.m in Sources */,
 			);
@@ -424,6 +431,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NBC89W4CT2;
 				INFOPLIST_FILE = QQBubbleButton/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mile.QQBubbleButton;
@@ -435,6 +443,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NBC89W4CT2;
 				INFOPLIST_FILE = QQBubbleButton/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mile.QQBubbleButton;
@@ -507,6 +516,7 @@
 				BE64FAFF1DF994CF003433BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BE64FB001DF994CF003433BE /* Build configuration list for PBXNativeTarget "QQBubbleButtonTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +525,7 @@
 				BE64FB021DF994CF003433BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BE64FB031DF994CF003433BE /* Build configuration list for PBXNativeTarget "QQBubbleButtonUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +534,7 @@
 				BE64FB051DF994CF003433BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

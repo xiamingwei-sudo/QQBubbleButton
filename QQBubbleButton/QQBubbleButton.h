@@ -10,4 +10,19 @@
 
 @interface QQBubbleButton : UIButton
 
+/**
+ 大圆脱离小圆的最大距离
+ */
+@property (nonatomic ,assign)CGFloat maxDistance;
+
+/**
+ 小圆
+ */
+@property (nonatomic , strong)UIView *smallCircleView;
+
+/**
+ 按钮消失的动画数组
+ */
+@property (nonatomic , strong)NSMutableArray *images;
+
 @end
